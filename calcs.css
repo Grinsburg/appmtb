@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    font-family: "Segoe UI", Ubuntu, "Droid Sans", sans-serif;
+}
+
+form, table {
+    text-align: left;
+    margin: auto;
+}
+
+form {
+    padding: 2mm;
+    width: 12cm;
+}
+
+
+button, input, select {
+    border-radius: 1mm;
+}
+
+form#credit, button, input, select {
+    border: 1px solid #808080;
+}
+
+form {
+    border-width: 2px;
+}
+
+form > div {
+    display: table-row;
+}
+
+form > div > div {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 1mm 2mm;
+}
+
+#credit span {
+    color: rgb(160,160,160);
+}
+
+input {
+    width: 16mm;
+    padding-left: 1mm;
+}
+
+button, select {
+    width: 24mm;
+}
+
+button {
+    margin: 2mm 1mm 1mm 1mm;
+}
+
+#buttons {
+    display: block;
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: right;
+    margin-top: 4mm;
+}
+
+table td, table th {
+    border: 1px solid black;
+    padding: 1mm 2mm;
+}
+
+table span {
+    color: rgb(160,160,160);
+}
